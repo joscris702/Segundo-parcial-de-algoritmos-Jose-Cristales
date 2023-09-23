@@ -1,0 +1,6 @@
+cadena = input("Ingrese una cadena/oracion: ")
+letra = input("Ingrese una letra para contar cuantas  veces se repite: ")
+cadena = cadena.lower()
+letra = letra.lower()
+cantidad = cadena.count(letra)
+print(f'La letra que usted selecciono"{letra}" se repite {cantidad} veces en la cadena "{cadena}".')
